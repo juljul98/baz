@@ -1,0 +1,31 @@
+[17-Apr-2016 16:23:47] wizard_viewed
+[20-Apr-2016 08:24:08] PHP Parse error:  syntax error, unexpected T_PAAMAYIM_NEKUDOTAYIM in /home3/jaynardv/public_html/taffen/wp-content/plugins/yith-product-size-charts-for-woocommerce/class.yith-wcpsc-frontend.php on line 128
+[20-Apr-2016 08:24:14] PHP Parse error:  syntax error, unexpected T_PAAMAYIM_NEKUDOTAYIM in /home3/jaynardv/public_html/taffen/wp-content/plugins/yith-product-size-charts-for-woocommerce/class.yith-wcpsc-frontend.php on line 128
+[20-Apr-2016 08:24:19] PHP Parse error:  syntax error, unexpected T_PAAMAYIM_NEKUDOTAYIM in /home3/jaynardv/public_html/taffen/wp-content/plugins/yith-product-size-charts-for-woocommerce/class.yith-wcpsc-frontend.php on line 128
+[20-Apr-2016 08:24:26] PHP Parse error:  syntax error, unexpected T_PAAMAYIM_NEKUDOTAYIM in /home3/jaynardv/public_html/taffen/wp-content/plugins/yith-product-size-charts-for-woocommerce/class.yith-wcpsc-frontend.php on line 128
+[20-Apr-2016 08:24:33] PHP Parse error:  syntax error, unexpected T_PAAMAYIM_NEKUDOTAYIM in /home3/jaynardv/public_html/taffen/wp-content/plugins/yith-product-size-charts-for-woocommerce/class.yith-wcpsc-frontend.php on line 128
+[20-Apr-2016 08:24:38] PHP Parse error:  syntax error, unexpected T_PAAMAYIM_NEKUDOTAYIM in /home3/jaynardv/public_html/taffen/wp-content/plugins/yith-product-size-charts-for-woocommerce/class.yith-wcpsc-frontend.php on line 128
+[20-Apr-2016 08:24:43] PHP Parse error:  syntax error, unexpected T_PAAMAYIM_NEKUDOTAYIM in /home3/jaynardv/public_html/taffen/wp-content/plugins/yith-product-size-charts-for-woocommerce/class.yith-wcpsc-frontend.php on line 128
+[20-Apr-2016 08:24:46] PHP Parse error:  syntax error, unexpected T_PAAMAYIM_NEKUDOTAYIM in /home3/jaynardv/public_html/taffen/wp-content/plugins/yith-product-size-charts-for-woocommerce/class.yith-wcpsc-frontend.php on line 128
+[20-Apr-2016 08:49:34] PHP Parse error:  syntax error, unexpected T_PAAMAYIM_NEKUDOTAYIM in /home3/jaynardv/public_html/taffen/wp-content/plugins/yith-product-size-charts-for-woocommerce/class.yith-wcpsc-frontend.php on line 128
+[20-Apr-2016 08:51:35] PHP Parse error:  syntax error, unexpected T_PAAMAYIM_NEKUDOTAYIM in /home3/jaynardv/public_html/taffen/wp-content/plugins/yith-product-size-charts-for-woocommerce/class.yith-wcpsc-frontend.php on line 128
+[20-Apr-2016 08:53:36] PHP Parse error:  syntax error, unexpected T_PAAMAYIM_NEKUDOTAYIM in /home3/jaynardv/public_html/taffen/wp-content/plugins/yith-product-size-charts-for-woocommerce/class.yith-wcpsc-frontend.php on line 128
+[20-Apr-2016 08:55:37] PHP Parse error:  syntax error, unexpected T_PAAMAYIM_NEKUDOTAYIM in /home3/jaynardv/public_html/taffen/wp-content/plugins/yith-product-size-charts-for-woocommerce/class.yith-wcpsc-frontend.php on line 128
+[20-Apr-2016 08:57:38] PHP Parse error:  syntax error, unexpected T_PAAMAYIM_NEKUDOTAYIM in /home3/jaynardv/public_html/taffen/wp-content/plugins/yith-product-size-charts-for-woocommerce/class.yith-wcpsc-frontend.php on line 128
+[20-Apr-2016 08:59:42] PHP Parse error:  syntax error, unexpected T_PAAMAYIM_NEKUDOTAYIM in /home3/jaynardv/public_html/taffen/wp-content/plugins/yith-product-size-charts-for-woocommerce/class.yith-wcpsc-frontend.php on line 128
+[21-Apr-2016 00:28:20] PHP Parse error:  syntax error, unexpected T_PAAMAYIM_NEKUDOTAYIM in /home3/jaynardv/public_html/taffen/wp-content/plugins/yith-product-size-charts-for-woocommerce/class.yith-wcpsc-frontend.php on line 128
+[21-Apr-2016 06:57:32] PHP Parse error:  syntax error, unexpected T_PAAMAYIM_NEKUDOTAYIM in /home3/jaynardv/public_html/taffen/wp-content/plugins/yith-product-size-charts-for-woocommerce/class.yith-wcpsc-frontend.php on line 128
+[21-Apr-2016 06:57:47] PHP Parse error:  syntax error, unexpected T_PAAMAYIM_NEKUDOTAYIM in /home3/jaynardv/public_html/taffen/wp-content/plugins/yith-product-size-charts-for-woocommerce/class.yith-wcpsc-frontend.php on line 128
+[22-Apr-2016 00:39:01] PHP Parse error:  syntax error, unexpected T_PAAMAYIM_NEKUDOTAYIM in /home3/jaynardv/public_html/taffen/wp-content/plugins/yith-product-size-charts-for-woocommerce/class.yith-wcpsc-frontend.php on line 128
+[27-Apr-2016 04:40:20] PHP Fatal error:  Call to undefined function  date_create_from_format() in /home3/jaynardv/public_html/taffen/wp-content/plugins/newsletter/main/index.php on line 57
+[27-Apr-2016 05:28:21] PHP Fatal error:  Call to undefined function  date_create_from_format() in /home3/jaynardv/public_html/taffen/wp-content/plugins/newsletter/main/index.php on line 57
+[27-Apr-2016 05:28:30] PHP Fatal error:  Call to undefined function  date_create_from_format() in /home3/jaynardv/public_html/taffen/wp-content/plugins/newsletter/main/index.php on line 57
+[27-Apr-2016 05:28:45] PHP Fatal error:  Call to undefined function  date_create_from_format() in /home3/jaynardv/public_html/taffen/wp-content/plugins/newsletter/main/index.php on line 57
+[01-May-2016 07:12:48] mojo_plugin_deactivated
+[02-May-2016 15:00:16] PHP Warning:  in_array() [<a href='function.in-array'>function.in-array</a>]: Wrong datatype for second argument in /home3/jaynardv/public_html/taffen/wp-content/plugins/wc-return-product/wc_return_product.php on line 245
+[18-May-2016 13:24:07] PHP Fatal error:  Call to undefined function  date_create_from_format() in /home3/jaynardv/public_html/taffen/wp-content/plugins/newsletter/main/index.php on line 57
+[18-May-2016 13:24:28] PHP Fatal error:  Call to undefined function  date_create_from_format() in /home3/jaynardv/public_html/taffen/wp-content/plugins/newsletter/main/index.php on line 57
+[18-May-2016 13:24:30] PHP Fatal error:  Call to undefined function  date_create_from_format() in /home3/jaynardv/public_html/taffen/wp-content/plugins/newsletter/main/index.php on line 57
+[18-May-2016 13:25:50] PHP Fatal error:  Call to undefined function  date_create_from_format() in /home3/jaynardv/public_html/taffen/wp-content/plugins/newsletter/main/index.php on line 57
+[22-May-2016 07:13:31] PHP Fatal error:  Call to undefined function  date_create_from_format() in /home3/jaynardv/public_html/taffen/wp-content/plugins/newsletter/main/index.php on line 57
+[13-Jun-2016 02:48:18] PHP Fatal error:  Call to undefined function  date_create_from_format() in /home3/jaynardv/public_html/taffen/wp-content/plugins/newsletter/main/index.php on line 57
