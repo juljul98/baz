@@ -60,7 +60,7 @@
 
 #nav-main ul.sf-menu {
 	display: table;
-	width: 100%;
+	width: 50%;
 	float: none;
 }
 
@@ -69,9 +69,8 @@
 	width: 14.26%;
 	display: table-cell !important;
 	float: none;
-	text-transform: uppercase;
-	border-right: 1px solid #791215;
 }
+
 
 #nav-main ul.sf-menu>li:last-child { border: none; }
 #nav-main ul.sf-menu>li>ul.sf-dropdown-menu>li {
@@ -295,11 +294,17 @@ span.amount, .product_item .product_details h5, .product_item .notrated{
 #mobile-search, .menu-toggle { display: none; }
 
 .copyright{
-	float: left;
-	width: 25%;
-	color:  #791215!important;
+	width: 100%;
+	background-color: #2c3e50;
+	text-align: center;
+	color:  #fff;
 	font-size: 12px!important;
-	padding-top: 40px!important;
+	padding: 15px 0!important;
+	margin-bottom: 0;
+}
+
+.footercredits {
+	padding-bottom: 0;
 }
 
 .footercredit01,
@@ -507,3 +512,23 @@ p.p1-with, p.p2-with {float: left;margin: 10px; color:#791215;}
 .term-conditions-container p{margin-top:40px;}
 .term-conditions-container ol{padding-left:40px;}
 .term-conditions-container li{list-style:lower-alpha;}
+
+
+
+/* Additional CSS */
+#menu-social_menu li {
+	margin: 2px 0;
+}
+.menu-image-title-after {
+	margin-right: 10px;
+}
+.logocase {
+	text-align: center;
+}
+.bar {
+	height: 3px;
+	width: 20%;
+	display: block;
+	margin: 10px auto 15px;
+	background-color: #2c3e50;
+}

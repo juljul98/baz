@@ -50,16 +50,17 @@
                         </a>
                       </li>
                     </ul>
+                    
                   <?php }
                 }
               }
               ?>
     <?php if(!is_user_logged_in()){
-      echo '<a class="signup-link-topbar" href="/my-account">SIGN UP</a>';
+      echo '<a class="signup-link-topbar" href="/midterm5/iteration3/my-account">SIGN UP</a>';
      }else{
       $user = wp_get_current_user();
       $logout_link = wp_logout_url(get_permalink(wc_get_page_id( 'myaccount' )));
-      echo '<a class="logout-link-topbar" href="'.$logout_link.'">LOGOUT</a><a class="signup-link-topbar" href="/my-account">'.$user->user_login.'</a>';
+      echo '<a class="logout-link-topbar" href="'.$logout_link.'">LOGOUT</a><a class="signup-link-topbar" href="'.site_url().'/my-account">'.$user->user_login.'</a>';
     } ?>
           <div id="topbar-search" class="topbar-widget">
             <?php

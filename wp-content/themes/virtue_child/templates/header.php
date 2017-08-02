@@ -40,6 +40,7 @@
                 <p class="kad_tagline belowlogo-text"><?php echo $virtue['logo_below_text']; ?></p>
               <?php }?>
            <a href="#" class="menu-toggle"><i class="fa fa-bars"></i></a>
+           <span class="bar"></span>
            </div> <!-- Close #logo -->
 
 		<div id="mobile-search" class="topbar-widget">

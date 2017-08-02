@@ -18,6 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 class WC_Cart {
 
+
 	/** @var array Contains an array of cart items. */
 	public $cart_contents = array();
 
@@ -2101,6 +2102,7 @@ class WC_Cart {
 
 			return apply_filters( 'woocommerce_cart_subtotal', $cart_subtotal, $compound, $this );
 		}
+		
 
 		/**
 		 * Get the product row price per item.

@@ -120,4 +120,5 @@ function password_change_notification_admin( $user, $key ) {
     }
 }
 
+
 ?>

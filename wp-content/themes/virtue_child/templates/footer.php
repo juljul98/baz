@@ -68,26 +68,10 @@
 		            <?php }; ?>
 		        <?php } ?>
         </div>
-        <div class="footercredits clearfix">
-    		<p class="copyright"><?php echo date("Y")."&copy;".get_bloginfo("title"); ?></p>
-		<div class="footercredit01">
-			<?php if (is_active_sidebar('footer_copy_01') ) { ?>
-					<div>
-					<?php dynamic_sidebar('footer_copy_01'); ?> 
-					</div> 
-		            <?php }; ?>
-		</div>
-		
-		<div class="footercredit02">
-			<?php if (is_active_sidebar('footer_copy_02') ) { ?>
-					<div>
-					<?php dynamic_sidebar('footer_copy_02'); ?> 
-					</div> 
-		            <?php }; ?>
-		</div>
-    	</div>
-
   </div>
+   <div class="footercredits clearfix">
+	<p class="copyright"><?php echo date("Y")."&copy;".get_bloginfo("title"); ?></p>
+</div>
 
 </footer>
 
