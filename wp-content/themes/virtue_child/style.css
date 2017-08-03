@@ -43,15 +43,16 @@
 }
 .primary-menu .logofont{
 	font-family: HoeflerText;
-	color: #791215!important;
+	color: #2c3e50!important;
 }
 
 #topbar-search .form-search {
-	border: 1px solid #791215;
+	border: 1px solid #2c3e50;
+	border-radius: 6px;
 }
 
 #topbar-search .icon-search {
-	color: #791215;
+	color: #2c3e50;
 }
 
 #nav-main {
@@ -60,17 +61,42 @@
 
 #nav-main ul.sf-menu {
 	display: table;
-	width: 50%;
 	float: none;
 }
 
 #nav-main ul.sf-menu>li{
 	position: relative;
-	width: 14.26%;
 	display: table-cell !important;
 	float: none;
 }
 
+#nav-main ul.sf-menu>li a {
+	margin: 0 10px;
+	padding: 0 5px 5px;
+}
+
+.sf-menu a {
+	padding: 0;
+}
+
+.current_page_item a,
+.current-menu-item a {
+	border-bottom: 2px solid #2c3e50!important;
+}
+
+#logo a.brand {
+	color: #2c3e50!important;	
+}
+
+.product_item:hover .kad_add_to_cart,
+.product_item:hover a.button {
+    background: #7f8c8d!important;
+}
+
+.cart_totals .checkout-button,
+.wpcf7 input.wpcf7-submit {
+	background: #2c3e50!important;
+}
 
 #nav-main ul.sf-menu>li:last-child { border: none; }
 #nav-main ul.sf-menu>li>ul.sf-dropdown-menu>li {
@@ -86,8 +112,8 @@
 	height: 8px;
 	top: 32%;
 	right: 10px;
-	border-right: 1px solid #791215;
-	border-bottom: 1px solid #791215;
+	border-right: 1px solid #2c3e50;
+	border-bottom: 1px solid #2c3e50;
 	transform: rotate(45deg) ;
 	-webkit-transform: rotate(45deg) ;
 	-moz-transform: rotate(45deg) ;
@@ -97,8 +123,8 @@
 
 #nav-main ul.sf-menu a {
 	font-family: JosefinSans;
-	font-size: 14px!important;
-	color: #791215;
+	font-size: 16px!important;
+	color: #2c3e50;
 }
 
 #nav-main ul.sf-menu a:hover {
@@ -139,7 +165,7 @@
 }
 
 h1{
-	margin:60px 0px 30px 0px;
+	margin:30px 0px 10px 0px;
 	font-family: JosefinSans !important;
 }
 
@@ -158,11 +184,11 @@ h2, h3{
 }
 
 #containerfooter .menu {
-	margin: 0 0 0 10px;
+	margin: 0;
 }
 
 .footerclass .footer-widget a{
-	color: #791215;
+	color: #2c3e50;
 }
 
 #containerfooter h3 {
@@ -181,7 +207,7 @@ h2, h3{
 #containerfooter .menu li a:hover {
 	display: inline;
 	background: none!important;
-	color: #791215;
+	color: #2c3e50;
 	text-decoration: underline;
 }
 
@@ -191,7 +217,7 @@ h2, h3{
 	width: 31px;
 	margin: 0 6px;
 	border-radius: 50%;
-	background: #791215 !important;
+	background: #2c3e50 !important;
 	color: #fff !Important;
 }
 
@@ -210,7 +236,7 @@ h2, h3{
 }
 
 #topcontrol>div {
-	background: #791215;
+	background: #2c3e50;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
@@ -223,7 +249,7 @@ h2, h3{
 
 .flex-control-paging li a.flex-active,
 .flex-control-paging li a.hover {
-	background: #791215 !important;
+	background: #2c3e50 !important;
 }
 
 .page-id-8 .page-header {
@@ -267,10 +293,8 @@ span.amount, .product_item .product_details h5, .product_item .notrated{
 .signup-link-topbar, .logout-link-topbar{
 	float: right;
 	/*color: #FFF !important;*/
-	font-family: JosefinSans !important;
-	font-size: 12px;
+	font-size: 14px;
 	margin: 10px 0 10px 0;
-	text-transform: uppercase;
 	font-weight: bold;
 }
 
@@ -286,7 +310,7 @@ span.amount, .product_item .product_details h5, .product_item .notrated{
 }
 
 .signup-link-topbar, .logout-link-topbar { 
-	color: #791215!important;
+	color: #2c3e50!important;
 	float: right;
 	padding: 0 10px;
 }
@@ -297,9 +321,9 @@ span.amount, .product_item .product_details h5, .product_item .notrated{
 	width: 100%;
 	background-color: #2c3e50;
 	text-align: center;
-	color:  #fff;
-	font-size: 12px!important;
-	padding: 15px 0!important;
+	color:  #fff!important;
+	font-size: 14px!important;
+	padding: 10px 0!important;
 	margin-bottom: 0;
 }
 
@@ -324,7 +348,7 @@ media(max-width: 768px){
 	margin: 0 25%;
 }
 }
-#topbar-search form { max-width: 150px; }
+#topbar-search form { max-width: 250px; }
 
 .home .ywcps_products_slider .owl-stage .kad_product { width: 100% !important; }
 .home .featured-block > h1 { text-align: center; }
@@ -336,7 +360,7 @@ media(max-width: 768px){
 .collection-block .right-box .row:first-child a:first-child{ float: left; width:49.5%; margin-right: 0.5%; }
 .collection-block .right-box .row:first-child a:last-child{  float: left; width:49.5%; margin-left: 0.5%; }
 .collection-block .collection { position: relative; }
-.collection-block .title { position: absolute; top: 40%; left: 25%; color: #791215; border: 2px solid #791215; padding: 10px;text-align: center; font-size: 14px; width: 50%;  z-index: 10; box-sizing: border-box; font-weight: bold; background: rgba(255,255,255,0.70);}
+.collection-block .title { position: absolute; top: 40%; left: 25%; color: #2c3e50; border: 2px solid #2c3e50; padding: 10px;text-align: center; font-size: 14px; width: 50%;  z-index: 10; box-sizing: border-box; font-weight: bold; background: rgba(255,255,255,0.70);}
 .collection-block .left-box .title { top: 50%; }
 
 .collection-block a:hover .title {
@@ -357,9 +381,9 @@ media(max-width: 768px){
 	right:0!important;
 }
 .collection-block a:hover .collection:before { position: absolute; content: ""; width: 100%; height: 100%; background-color: #000; opacity: 0.6; }
-.menu-toggle { position: absolute; font-size: 25px; color: #791215; top: 10%; right: 20px; }
-#mobile-search .form-search { border: 1px solid #791215; width: 80%; max-width: 80%; margin: 0 10%; }
-#mobile-search .form-search .search-icon { color: #791215; left:86%; }
+.menu-toggle { position: absolute; font-size: 25px; color: #2c3e50; top: 10%; right: 20px; }
+#mobile-search .form-search { border: 1px solid #2c3e50; width: 80%; max-width: 80%; margin: 0 10%; }
+#mobile-search .form-search .search-icon { color: #2c3e50; left:86%; }
 
 .flex-control-nav { z-index: 10; }
 .flex-direction-nav {    
@@ -375,14 +399,14 @@ media(max-width: 768px){
 	content: "";
 	height: 15px;
 	width: 15px;
-	border-top: 2px solid #791215;
-	border-left: 2px solid #791215;
+	border-top: 2px solid #2c3e50;
+	border-left: 2px solid #2c3e50;
  }
 .flex-direction-nav li:last-child { float:right; }
-.product_item .kad_add_to_cart, .product_item a.button { background: #791215; }
+.product_item .kad_add_to_cart, .product_item a.button { background: #2c3e50; }
 
 #topbar-search input[type=text],
-#mobile-search input[type=text] { color: #791215; }
+#mobile-search input[type=text] { color: #2c3e50; }
 @media(max-width: 768px){
 	#topbar-search { display: none; }
 	.signup-link-topbar, .logout-link-topbar { display: block; width: 100%; }
@@ -409,7 +433,7 @@ media(max-width: 768px){
 		text-align: center;
 	}
 	.footerclass #logo { width: 50%; margin: 0 25%; }
-	.copyright { position: absolute; width: 100%; text-align: center; bottom: 10px; padding: 0; margin: 0; }
+	.copyright { width: 100%; text-align: center; padding: 0; margin: 20px 0 0 0; }
 	.footercredits { position: relative; padding: 0 0 40px; }
 	#containerfooter { padding: 0; }
 	.widget { margin-top: 15px; }
@@ -429,7 +453,7 @@ media(max-width: 768px){
 
 
 .sizing-chart table tr:first-child td {
-	background: #791215;
+	background: #2c3e50;
 	color: #fff;
 	padding: 6px 0;
 }
@@ -457,9 +481,9 @@ media(max-width: 768px){
 #wrapper { overflow: hidden; }
 .woocommerce .products .star-rating, .product_item .notrated { display: none; }
 
-.about-us-2 h1, .about-us-2 h2, .about-us-2 h3, .about-us-2 i{color: #791215 !important;}
-p.p1-with, p.p2-with {float: left;margin: 10px; color:#791215;}
-.pcont{float:left;width:100%;color:#791215;}
+.about-us-2 h1, .about-us-2 h2, .about-us-2 h3, .about-us-2 i{color: #2c3e50 !important;}
+p.p1-with, p.p2-with {float: left;margin: 10px; color:#2c3e50;}
+.pcont{float:left;width:100%;color:#2c3e50;}
 .about-us-2 i{font-weight:bold;}
 #comfort, #cool, #classic{
 	float:left;
@@ -487,12 +511,21 @@ p.p1-with, p.p2-with {float: left;margin: 10px; color:#791215;}
     height: auto;
     font-size: 35px;
 }
-.benefits-description h3{ color: #791215; line-height: 50px; font-size: 2em;} 
+.benefits-description h3{ color: #2c3e50; line-height: 50px; font-size: 2em;} 
 .v-and-m{margin: 40px 0 40px 0;}
 .my-account .addresses .address .title a{ float:left; padding: 20px;}
-.aboutus-text {font-size: 17px;}
+.aboutus-text { font-size: 14px; float: left; width: 50%;}
+.aboutus-image { position: relative; height: 339px; overflow: hidden; float: left; width: 45%; margin-right: 5%; }
+.aboutus-image img { position: absolute; top: -90%; }
 
 @media (max-width: 768px){
+.aboutus-image,
+.aboutus-text {
+	width: 100%;
+}
+.aboutus-image {
+	margin-bottom: 10px;
+}
 .img-cont{width: 60%; margin: 0 20%;}
 .img-cont img { margin: 0; }
 .benefits-description{
@@ -519,9 +552,11 @@ p.p1-with, p.p2-with {float: left;margin: 10px; color:#791215;}
 #menu-social_menu li {
 	margin: 2px 0;
 }
-.menu-image-title-after {
+
+#menu-social_menu li img {
 	margin-right: 10px;
 }
+
 .logocase {
 	text-align: center;
 }
@@ -531,4 +566,7 @@ p.p1-with, p.p2-with {float: left;margin: 10px; color:#791215;}
 	display: block;
 	margin: 10px auto 15px;
 	background-color: #2c3e50;
+}
+div.wpcf7-mail-sent-ng {
+	border: none;
 }
